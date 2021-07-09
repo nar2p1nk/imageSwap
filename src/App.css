@@ -1,0 +1,72 @@
+html{background-color: crimson;}
+#img{
+  background-color: aquamarine;
+  width: 50px;
+  height: 60px;
+}
+.{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #242528;
+}
+button{background-color:crimson;}
+li,a,button{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  color: #edf0ed;
+  text-decoration: none;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 10%;
+  top: 0%;
+  border-bottom: 1px solid #fff;
+}
+.nav_links{
+  list-style: none;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+  color: #0088a9;
+}
+button{
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover{
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-row: 1/3; */
+    height: 550px;
+    padding-top: 40px;
+}
+.main-img{
+    min-height: 600px;
+    max-height: 600px;
+    max-width: 700px;
+
+}
+
+.arrow{
+    margin: auto;
+}
+.next{
+    
+    /* position: fixed; */
+}

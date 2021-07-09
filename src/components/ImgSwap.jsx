@@ -14,11 +14,11 @@ const ImgSwap = () => {
      if ( data[Dick].url === data[data.length-1].url){console.log('sawd');}
     return (
         <div className='content'>
-            <div className='previous'>{data[Dick].url === data[0].url ?'' :<FaArrowLeft size={50}onClick={Previous}/>}</div>
+            <div className='previous arrow'>{data[Dick].url === data[0].url ?'' :<FaArrowLeft size={50}onClick={Previous}/>}</div>
             <div className='content-img'>
                 <img className='main-img'src={data[Dick].url} alt='eat shot'/>
             </div>
-            <div className='next'>{data[Dick].url === data[data.length-1].url ?'': <FaArrowRight size={50} onClick={Next}/>}</div>
+            <div className='next arrow'>{data[Dick].url === data[data.length-1].url ?'': <FaArrowRight size={50} onClick={Next}/>}</div>
         </div>
     )
 
